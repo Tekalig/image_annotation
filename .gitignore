@@ -205,3 +205,11 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Project-specific generated files
+model_outputs.csv
+threshold_results.csv
+threshold_analysis.png
+best_model.pth
+training_curves.png
+data/
