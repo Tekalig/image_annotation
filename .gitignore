@@ -215,3 +215,9 @@ training_curves.png
 training_curves_test.png
 test_model.pth
 data/
+
+# Generated dataset files (keep structure, ignore content)
+datasets/part1/*.csv
+datasets/part2/train/
+datasets/part2/test/
+!datasets/README.md
