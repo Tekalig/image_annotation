@@ -220,3 +220,4 @@ data/
 # Dataset files - keep sample datasets, ignore user-added ones
 # To keep sample datasets in git while allowing users to add their own:
 # Sample datasets are explicitly tracked, user additions are ignored
+/datasets/
