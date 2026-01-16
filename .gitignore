@@ -212,4 +212,6 @@ threshold_results.csv
 threshold_analysis.png
 best_model.pth
 training_curves.png
+training_curves_test.png
+test_model.pth
 data/

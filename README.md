@@ -204,9 +204,19 @@ pip install -r requirements.txt
 # Run Part 1: Threshold Optimization
 python part1_threshold_optimization.py
 
-# Run Part 2: CIFAR-10 CNN Training
+# Run Part 2: CIFAR-10 CNN Training (requires internet to download CIFAR-10)
 python part2_cifar10_cnn.py
+
+# Or test Part 2 architecture with synthetic data (no internet required)
+python test_part2_architecture.py
 ```
+
+### Testing
+
+- **Part 1**: Tested and working. Generates visualizations and analysis reports.
+- **Part 2**: Architecture tested with synthetic data. Full training requires internet connection to download CIFAR-10 dataset.
+  - Use `test_part2_architecture.py` to verify the CNN architecture and training process without downloading data
+  - Use `part2_cifar10_cnn.py` for full training on actual CIFAR-10 (requires internet)
 
 ## Key Concepts Demonstrated
 
