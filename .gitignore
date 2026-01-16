@@ -205,4 +205,19 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Project-specific generated files
+model_outputs.csv
+threshold_results.csv
+threshold_analysis.png
+best_model.pth
+training_curves.png
+training_curves_test.png
+training_curves_custom.png
+test_model.pth
+data/
+
+# Dataset files - keep sample datasets, ignore user-added ones
+# To keep sample datasets in git while allowing users to add their own:
+# Sample datasets are explicitly tracked, user additions are ignored
 /datasets/
